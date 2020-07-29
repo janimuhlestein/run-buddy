@@ -28,33 +28,63 @@
             </ul>
         </nav>
     </header>
-       <!--hero jumbotron-->
-       <section>
-
+       <!--hero section-->
+       <section class="hero">
+        <div class="hero-form">
+            <h3>Get Started Today</h3>
+            <p>Fill out this form and one of our trainers will schedule a consultation.</p>
+            <form>
+                <label for="name">Enter full name:</label>
+                <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/>
+                <label for="email">Enter email address:</label>
+                <input type="email" placeholder="Email Address" name="email" id="email" class="form-input"/>
+                <label for="phone">Enter phone number:</label>
+                <input type="tel" placeholder="Telephone Number" name="phone" id="phone" class="form-input"/>
+                <p>Have you worked out with a trainer before?
+                <input type="radio" name="trainer_confirm" id="trainer_yes" />
+                <label for="trainer_confirm">Yes</label>
+                <input type="radio" name="trainer_confirm" id="trainer_no" />
+                <label for="trainer_confirm">No</label>
+                </p>
+                <p>
+                <input type="checkbox" name="over_18" id="over_18"/>
+                <label for="over_18">I affirm that I am over 18</label>
+                </p>
+                <button type="Submit">Get Running</button>
+            </form>
+        </div>
        </section>
+       <!--end hero-->
 
        <!--what we do-->
        <section>
-           <h2>What We Do</h2>
+           <h2 id="what-we-do">What We Do</h2>
        </section>
 
        <!--What you do-->
        <section>
-           <h2>What You Do</h2>
+           <h2 id="what-you-do">What You Do</h2>
        </section>
 
        <!--meet the trainers-->
        <section>
-           <h2>Meet The Trainers</h2>
+           <h2 id="meet-the-trainers">Meet The Trainers</h2>
        </section>
 
        <!--Reach Out-->
        <section>
-           <h2>Reach Out</h2>
+           <h2 id="reach-out">Reach Out</h2>
        </section>
 
        <!--footer-->
        <footer>
-           <h2> ❤️ Made with love by Run Buddy</h2>
+           <h2>
+            ❤️ Made with love by Run Buddy
+        </h2>
+            <div>
+                <a href="#">Read our Privacy Policy</a><br />
+                &copy; 2020 Run Buddy, Inc.
+            </div>
        </footer>
    </body>
+   </html>
