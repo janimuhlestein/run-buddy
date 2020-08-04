@@ -54,14 +54,20 @@
                 <label for="phone">Enter phone number:</label>
                 <input type="tel" placeholder="Telephone Number" name="phone" id="phone" class="form-input"/>
                 <p>Have you worked out with a trainer before?
-                <input type="radio" name="trainer_confirm" id="trainer_yes" />
-                <label for="trainer_confirm">Yes</label>
-                <input type="radio" name="trainer_confirm" id="trainer_no" />
-                <label for="trainer_confirm">No</label>
+                  <span class="radio-wrapper">
+                    <input type="radio" name="trainer_confirm" id="trainer_yes" />
+                    <label for="trainer_confirm">Yes</label>
+                  </span>
+                  <span class="radio-wrapper">
+                    <input type="radio" name="trainer_confirm" id="trainer_no" />
+                    <label for="trainer_confirm">No</label>
+                  </span>
                 </p>
                 <p>
-                <input type="checkbox" name="over_18" id="over_18"/>
-                <label for="over_18">I affirm that I am over 18</label>
+                  <span class="checkbox-wrapper">
+                  <input type="checkbox" name="over_18" id="over_18"/>
+                  <label for="over_18">I affirm that I am over 18</label>
+                </span>
                 </p>
                 <button type="Submit">Get Running</button>
             </form>
